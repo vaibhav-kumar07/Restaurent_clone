@@ -1,0 +1,312 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Bitter&family=Cormorant:wght@300&family=Indie+Flower&family=Merriweather:ital,wght@1,300&family=Mukta&family=Noto+Sans:ital,wght@1,100&family=Nunito:wght@400;600&family=Open+Sans&family=Roboto:wght@100&display=swap');
+
+body{
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding:0;
+  letter-spacing: 2px;
+ 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  font-family: 'Cormorant', serif;
+  
+}
+
+.Navbar{
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98vw;
+}
+
+.logo{
+  font-size: 20px;
+  letter-spacing: 2px;
+margin-left: 3rem;
+
+}
+
+.navbaritems ul{
+display: flex;
+font-weight: 600;
+
+list-style: none;
+justify-content: space-around;
+gap: 2rem;
+
+}
+
+.registerlinks{
+  
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+  margin-right: 2rem;
+
+}
+.HeroContent{
+  width: 100%;
+  height: 90vh;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap :20px; */
+
+}
+.HeroTag{
+  display: flex;
+  justify-content: space-between;
+  transform: rotate(-90deg);
+  gap: 10px;
+}
+
+.Heroheading{
+  width: 600px;
+  
+}
+.Heroheading h1{
+font-size: 35px;
+margin:0;
+}
+
+.Heading3{
+  margin: 0;
+}
+.Heroheading p{
+  width: 400px;
+  margin-bottom:2rem;
+}
+
+.Heroimage img{
+    width: 500px;
+    height: 500px;
+}
+
+ button{
+  background-color:#DCCA87;
+  font-family: 'Cormorant', serif;
+font-size: 20px;
+font-weight: 600;
+padding: 10px 40px;
+border-radius: 2px;
+border: none;
+cursor: pointer;
+
+}
+
+.About{
+ background-image: url("./images/BG.png");
+align-self: center;
+height: 100vh;
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ box-sizing: border-box;
+ align-items: center;
+ 
+}
+
+.aboutus{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+
+}
+
+.aboutus button{
+  font-size: 20px;
+  width: 40%;
+  padding: 7px 20px ;
+}
+
+.knifeimage img{
+  width: 100px;
+  height: 700px;
+
+} 
+
+.chefheading{
+  margin-left: 2rem;
+}
+ .chefcontent{
+
+  background-image: url("./images/BG.png");
+}
+.videoimage{
+  width: 100%;
+  overflow: hidden;
+} 
+.videoimage img{
+width: 100%;
+height: auto;
+display: block;
+max-width: 100%;
+}
+
+.chefWords{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  height: 70vh;
+
+ 
+}
+.rewardtexts{
+  align-self: center;
+  text-align: start;
+
+
+}
+
+.reward {
+ padding: 20px;
+ width: 300px;
+ height: 300px;
+
+}
+
+.reward img{
+  align-self: center;
+}
+
+.mainrewardsection{
+  width: 240px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+.rewardtext{
+  font-size: 10px;
+
+}
+.rewardarea{
+  max-width: 600px;
+  display: flex;
+   width: 600px;
+   flex-wrap: wrap;
+   gap:10px
+}
+.tomotoimage{
+  
+  align-self: center;
+}
+.tomotoimage img{
+ 
+  width: 400px;
+  height: 400px;
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("./images/BG.png");
+
+}
+.gallerytexts{
+  width: 400px;
+
+}
+
+.galleryimages{
+  width: 60%;
+  display: flex;
+  
+
+}
+.galleryinstaimages{
+  width: 100%;
+  overflow: hidden;
+margin: 10% 0 ;
+}
+.galleryinstaimages img{
+  width:100% ;
+  height: 90%;
+
+}
+
+.findustable > tr{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.Visitus{
+  margin-top: 8%;
+}
+
+
+
+.NewsletterBackground{
+  width: 100%;
+  background-image: url("./images/BG.png");
+  /* height: 100px */
+}
+.Newsletter{
+  margin:20px auto;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.email{
+  display: flex;
+  align-items: center;
+}
+.emailinput{
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+}
+.emailinput::placeholder{
+  text-align: start;
+  padding-left: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family:'Cormorant', serif;
+  font-weight: 600;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+.childfooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0;
+  
+}
+
+.childfooter > p:nth-child(2){
+  margin: 10px 0;
+}
+.lastsection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.lastsectionicons img{ 
+width: 30px;
+margin: 10px;
+
+}
+.lastsection >h3{
+  margin-top: 20px;
+}
